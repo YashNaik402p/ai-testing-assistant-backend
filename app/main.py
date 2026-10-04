@@ -42,6 +42,7 @@ from fastapi.middleware.cors import CORSMiddleware
 # If you are using a local server (like Live Server in VS Code), it might be "http://127.0.0.1:5500".
 origins = [
     "http://localhost",
+    "https://ai-testing-assistant-frontend.onrender.com",
     "http://localhost:8000",
     "http://localhost:5500",
     "http://127.0.0.1:5500",
